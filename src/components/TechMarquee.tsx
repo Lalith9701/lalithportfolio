@@ -1,18 +1,18 @@
 import { motion } from 'framer-motion';
 
 const technologies = [
-  { name: 'React', icon: '⚛️' },
-  { name: 'TypeScript', icon: '📘' },
-  { name: 'Next.js', icon: '▲' },
-  { name: 'Tailwind CSS', icon: '🎨' },
-  { name: 'Node.js', icon: '🟢' },
-  { name: 'Figma', icon: '🎭' },
-  { name: 'PostgreSQL', icon: '🐘' },
-  { name: 'GraphQL', icon: '◈' },
-  { name: 'Docker', icon: '🐳' },
-  { name: 'AWS', icon: '☁️' },
-  { name: 'Git', icon: '📦' },
   { name: 'Python', icon: '🐍' },
+  { name: 'Django', icon: '🎯' },
+  { name: 'Flask', icon: '🌶️' },
+  { name: 'JavaScript', icon: '💛' },
+  { name: 'Scikit-learn', icon: '🤖' },
+  { name: 'Pandas', icon: '🐼' },
+  { name: 'NumPy', icon: '🔢' },
+  { name: 'MySQL', icon: '🗄️' },
+  { name: 'SQLite', icon: '📦' },
+  { name: 'Git & GitHub', icon: '🔧' },
+  { name: 'HTML/CSS', icon: '🎨' },
+  { name: 'REST APIs', icon: '🔌' },
 ];
 
 const TechMarquee = () => {

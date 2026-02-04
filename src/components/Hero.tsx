@@ -75,7 +75,7 @@ const Hero = () => {
             whileHover={{ scale: 1.05 }}
           >
             <Sparkles className="w-4 h-4 text-primary" />
-            Available for freelance work
+            B.Tech CSE (AI & ML) | Open to Opportunities
           </motion.span>
         </motion.div>
 
@@ -84,8 +84,8 @@ const Hero = () => {
           className="font-display text-5xl md:text-7xl lg:text-8xl font-bold leading-tight mb-6"
           variants={itemVariants}
         >
-          <span className="block text-foreground">Crafting Digital</span>
-          <span className="block gradient-text glow-text">Experiences</span>
+          <span className="block text-foreground">Hi, I'm Lalith</span>
+          <span className="block gradient-text glow-text">Charan</span>
         </motion.h1>
 
         {/* Subtitle */}
@@ -93,8 +93,8 @@ const Hero = () => {
           className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed"
           variants={itemVariants}
         >
-          I'm a passionate designer & developer creating beautiful, 
-          functional interfaces that users love. Let's build something extraordinary together.
+          Aspiring software developer passionate about Python, Django, Flask, and Machine Learning. 
+          Building efficient, scalable, and user-friendly applications with clean code.
         </motion.p>
 
         {/* CTA Buttons */}

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Send, Mail, MapPin, Phone, Github, Linkedin, Twitter } from 'lucide-react';
+import { Send, Mail, MapPin, Phone, Github, Linkedin } from 'lucide-react';
 
 const Contact = () => {
   const [formState, setFormState] = useState({
@@ -18,15 +18,14 @@ const Contact = () => {
   };
 
   const socialLinks = [
-    { icon: Github, href: '#', label: 'GitHub' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Twitter, href: '#', label: 'Twitter' },
+    { icon: Github, href: 'https://github.com/lalithcharan', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://linkedin.com/in/bheemanapalli-lalith-charan', label: 'LinkedIn' },
   ];
 
   const contactInfo = [
-    { icon: Mail, label: 'hello@example.com' },
-    { icon: MapPin, label: 'San Francisco, CA' },
-    { icon: Phone, label: '+1 (555) 123-4567' },
+    { icon: Mail, label: 'lalithcharan111@gmail.com' },
+    { icon: MapPin, label: 'Guntakal, Andhra Pradesh, India' },
+    { icon: Phone, label: '+91 9701990126' },
   ];
 
   return (
@@ -55,7 +54,7 @@ const Contact = () => {
             Let's <span className="gradient-text">Connect</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Have a project in mind or just want to say hello? I'd love to hear from you.
+            Looking for internship opportunities or collaboration? Let's connect!
           </p>
         </motion.div>
 
@@ -189,11 +188,11 @@ const Contact = () => {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
                 </span>
-                <span className="text-sm font-medium text-green-400">Available for work</span>
+                <span className="text-sm font-medium text-green-400">Open to Opportunities</span>
               </div>
               <p className="text-sm text-muted-foreground">
-                Currently accepting new projects and freelance opportunities. 
-                Let's create something amazing together!
+                Currently seeking internships and entry-level opportunities in software development. 
+                Let's build something amazing together!
               </p>
             </motion.div>
           </motion.div>

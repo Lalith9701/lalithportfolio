@@ -2,36 +2,36 @@ import { motion } from 'framer-motion';
 import { Code2, Palette, Rocket, Users } from 'lucide-react';
 
 const stats = [
-  { icon: Code2, label: 'Years Experience', value: '5+' },
-  { icon: Rocket, label: 'Projects Completed', value: '50+' },
-  { icon: Users, label: 'Happy Clients', value: '30+' },
-  { icon: Palette, label: 'Design Awards', value: '8' },
+  { icon: Code2, label: 'Projects Built', value: '5+' },
+  { icon: Rocket, label: 'Technologies', value: '10+' },
+  { icon: Users, label: 'Certifications', value: '5' },
+  { icon: Palette, label: 'Hackathons', value: '1' },
 ];
 
 const timeline = [
   {
+    year: '2023 - 2027',
+    title: 'B.Tech in Computer Science & Engineering (AI & ML)',
+    company: 'Parul University, Gujarat',
+    description: 'Currently pursuing my degree with focus on AI/ML technologies. CGPA: 6.08/10',
+  },
+  {
+    year: '2025',
+    title: 'MIC MASTER & Android Bootcamp',
+    company: 'Certifications',
+    description: 'Completed MIC MASTER 2025 and Android App Development Bootcamp (Kotlin).',
+  },
+  {
     year: '2024',
-    title: 'Senior Full-Stack Developer',
-    company: 'Tech Innovators Inc.',
-    description: 'Leading a team of developers to build enterprise-scale applications.',
+    title: 'Deloitte Technology Simulation',
+    company: 'Forage',
+    description: 'Completed job simulation gaining industry-relevant experience.',
   },
   {
-    year: '2022',
-    title: 'Full-Stack Developer',
-    company: 'Digital Agency Co.',
-    description: 'Built and deployed 20+ client projects using modern web technologies.',
-  },
-  {
-    year: '2020',
-    title: 'Frontend Developer',
-    company: 'StartUp Labs',
-    description: 'Developed responsive web applications and contributed to open-source projects.',
-  },
-  {
-    year: '2019',
-    title: 'Started My Journey',
-    company: 'Self-taught',
-    description: 'Began learning programming and fell in love with web development.',
+    year: '2023',
+    title: 'Vadodara Hackathon 6.0',
+    company: 'Participant',
+    description: 'Participated in hackathon, building solutions under time constraints.',
   },
 ];
 
@@ -116,25 +116,24 @@ const About = () => {
             transition={{ duration: 0.6 }}
           >
             <h3 className="font-display text-2xl md:text-3xl font-bold mb-6">
-              Turning Complex Problems Into
-              <span className="gradient-text"> Simple Solutions</span>
+              Building Intelligent
+              <span className="gradient-text"> Solutions</span>
             </h3>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                I'm a full-stack developer with a deep passion for creating beautiful, 
-                performant web applications. My journey started with curiosity about 
-                how websites work, and it has evolved into a career dedicated to 
-                crafting exceptional digital experiences.
+                I'm an aspiring software developer from Guntakal, Andhra Pradesh, 
+                with hands-on experience in Python, Django, Flask, and machine learning projects. 
+                My journey is driven by a passion for developing efficient, scalable applications.
               </p>
               <p>
-                I believe in writing clean, maintainable code and staying up-to-date 
-                with the latest technologies. Whether it's building a startup's MVP 
-                or scaling an enterprise application, I approach every project with 
-                the same level of dedication and attention to detail.
+                Currently pursuing B.Tech in Computer Science & Engineering (AI & ML) at 
+                Parul University, I focus on clean code and problem-solving. I'm proficient 
+                in Python, JavaScript, SQL, and various frameworks including Django, Flask, 
+                Scikit-learn, Pandas, and NumPy.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring new design trends, 
-                contributing to open-source projects, or mentoring aspiring developers.
+                I'm eager to contribute to real-world projects, collaborate with cross-functional 
+                teams, and continuously enhance my technical skills while adding value to organizations.
               </p>
             </div>
           </motion.div>
