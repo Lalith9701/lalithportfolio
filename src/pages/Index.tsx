@@ -1,12 +1,25 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import CustomCursor from '@/components/CustomCursor';
+import Navbar from '@/components/Navbar';
+import Hero from '@/components/Hero';
+import TechMarquee from '@/components/TechMarquee';
+import BentoProjects from '@/components/BentoProjects';
+import About from '@/components/About';
+import Contact from '@/components/Contact';
+import Footer from '@/components/Footer';
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="relative min-h-screen bg-background text-foreground overflow-x-hidden">
+      <CustomCursor />
+      <Navbar />
+      <main>
+        <Hero />
+        <TechMarquee />
+        <BentoProjects />
+        <About />
+        <Contact />
+      </main>
+      <Footer />
     </div>
   );
 };
