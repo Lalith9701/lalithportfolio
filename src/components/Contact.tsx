@@ -18,8 +18,8 @@ const Contact = () => {
   };
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com/lalithcharan', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com/in/bheemanapalli-lalith-charan', label: 'LinkedIn' },
+    { icon: Github, href: 'https://github.com/Lalith9701', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/bheemanapalli-lalith-charan/', label: 'LinkedIn' },
   ];
 
   const contactInfo = [
