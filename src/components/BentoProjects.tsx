@@ -11,7 +11,7 @@ const projects = [
     size: 'large',
     color: 'from-blue-500/20 to-cyan-500/20',
     link: '#',
-    github: 'https://github.com/lalithcharan',
+    github: 'https://github.com/Lalith9701/AI-Student-Report-System',
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const projects = [
     size: 'medium',
     color: 'from-purple-500/20 to-pink-500/20',
     link: '#',
-    github: 'https://github.com/lalithcharan',
+    github: 'https://github.com/Lalith9701/Stress-Predictor',
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const projects = [
     size: 'medium',
     color: 'from-emerald-500/20 to-teal-500/20',
     link: '#',
-    github: 'https://github.com/lalithcharan',
+    github: 'https://github.com/Lalith9701/SCHOOL_ATTENDANCE',
   },
   {
     id: 4,
@@ -44,7 +44,7 @@ const projects = [
     size: 'large',
     color: 'from-orange-500/20 to-red-500/20',
     link: '#',
-    github: 'https://github.com/lalithcharan',
+    github: 'https://github.com/Lalith9701/THE-ANGELS-RESTAURANT',
   },
 ];
 
