@@ -13,19 +13,19 @@ const timeline = [
     year: '2023 - 2027',
     title: 'B.Tech in Computer Science & Engineering (AI & ML)',
     company: 'Parul University, Gujarat',
-    description: 'Currently pursuing my degree with focus on AI/ML technologies. CGPA: 6.08/10',
+    description: 'Currently pursuing my degree with focus on AI/ML technologies. Current CGPA: 6.08/10',
   },
   {
-    year: '2024',
-    title: 'Deloitte Technology Simulation',
-    company: 'Forage',
-    description: 'Completed job simulation gaining industry-relevant experience.',
+    year: '2021 - 2023',
+    title: 'Higher Secondary Education',
+    company: 'Sree Saraswathi Junior College, Guntakal',
+    description: 'Completed intermediate education. Score: 517/1000',
   },
   {
-    year: '2023',
-    title: 'Vadodara Hackathon 6.0',
-    company: 'Participant',
-    description: 'Participated in hackathon, building solutions under time constraints.',
+    year: '2020 - 2021',
+    title: 'Secondary School Education',
+    company: 'Viswa Bharathi High School, Guntakal',
+    description: 'Completed secondary education. Score: 512/600',
   },
 ];
 
