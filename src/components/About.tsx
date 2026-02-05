@@ -16,12 +16,6 @@ const timeline = [
     description: 'Currently pursuing my degree with focus on AI/ML technologies. CGPA: 6.08/10',
   },
   {
-    year: '2025',
-    title: 'MIC MASTER & Android Bootcamp',
-    company: 'Certifications',
-    description: 'Completed MIC MASTER 2025 and Android App Development Bootcamp (Kotlin).',
-  },
-  {
     year: '2024',
     title: 'Deloitte Technology Simulation',
     company: 'Forage',
