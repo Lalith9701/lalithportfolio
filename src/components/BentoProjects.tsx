@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ArrowUpRight, Github } from 'lucide-react';
+import { Github } from 'lucide-react';
 
 const projects = [
   {
@@ -10,7 +10,6 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop',
     size: 'large',
     color: 'from-blue-500/20 to-cyan-500/20',
-    link: '#',
     github: 'https://github.com/Lalith9701/AI-Student-Report-System',
   },
   {
@@ -18,10 +17,9 @@ const projects = [
     title: 'Stress Predictor App',
     description: 'ML application with Tkinter GUI to predict stress levels based on user inputs.',
     tags: ['Python', 'Tkinter', 'ML'],
-    image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&h=400&fit=crop',
+    image: 'https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=600&h=400&fit=crop',
     size: 'medium',
     color: 'from-purple-500/20 to-pink-500/20',
-    link: '#',
     github: 'https://github.com/Lalith9701/Stress-Predictor',
   },
   {
@@ -32,7 +30,6 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1606761568499-6d2451b23c66?w=600&h=400&fit=crop',
     size: 'medium',
     color: 'from-emerald-500/20 to-teal-500/20',
-    link: '#',
     github: 'https://github.com/Lalith9701/SCHOOL_ATTENDANCE',
   },
   {
@@ -43,7 +40,6 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=600&fit=crop',
     size: 'large',
     color: 'from-orange-500/20 to-red-500/20',
-    link: '#',
     github: 'https://github.com/Lalith9701/THE-ANGELS-RESTAURANT',
   },
 ];
@@ -146,26 +142,18 @@ const BentoProjects = () => {
                   {project.description}
                 </p>
 
-                {/* Action Buttons - Revealed on hover */}
+                {/* GitHub Button - Revealed on hover */}
                 <div
                   className="flex items-center gap-3 opacity-0 group-hover:opacity-100 transform translate-y-4 group-hover:translate-y-0 transition-all duration-300"
                 >
                   <a
-                    href={project.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 transition-colors"
-                  >
-                    View Project
-                    <ArrowUpRight className="w-4 h-4" />
-                  </a>
-                  <a
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center w-10 h-10 rounded-full glass-card hover:bg-white/10 transition-colors"
+                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card hover:bg-white/10 transition-colors"
                   >
                     <Github className="w-4 h-4" />
+                    <span className="text-sm font-medium">View on GitHub</span>
                   </a>
                 </div>
               </div>
