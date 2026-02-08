@@ -5,7 +5,6 @@ const stats = [
   { icon: Code2, label: 'Projects Built', value: '5+' },
   { icon: Rocket, label: 'Technologies', value: '10+' },
   { icon: Users, label: 'Certifications', value: '5' },
-  { icon: Palette, label: 'Hackathons', value: '1' },
 ];
 
 const timeline = [
