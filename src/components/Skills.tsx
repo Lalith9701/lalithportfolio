@@ -10,24 +10,24 @@ interface Skill {
 
 const skills: Skill[] = [
   // Backend & Languages
-  { name: 'Python', category: 'Languages', proficiency: 90, icon: Code2 },
-  { name: 'JavaScript', category: 'Languages', proficiency: 80, icon: Code2 },
-  { name: 'SQL', category: 'Languages', proficiency: 85, icon: Database },
+  { name: 'Python', category: 'Languages', proficiency: 69, icon: Code2 },
+  { name: 'JavaScript', category: 'Languages', proficiency: 65, icon: Code2 },
+  { name: 'SQL', category: 'Languages', proficiency: 60, icon: Database },
   
   // Frameworks & Libraries
   { name: 'Django', category: 'Web Frameworks', proficiency: 85, icon: Zap },
   { name: 'Flask', category: 'Web Frameworks', proficiency: 80, icon: Zap },
-  { name: 'React', category: 'Web Frameworks', proficiency: 80, icon: Zap },
   
   // ML & Data Science
-  { name: 'Scikit-learn', category: 'ML Libraries', proficiency: 85, icon: Brain },
-  { name: 'Pandas', category: 'ML Libraries', proficiency: 85, icon: Brain },
-  { name: 'NumPy', category: 'ML Libraries', proficiency: 80, icon: Brain },
+  { name: 'Scikit-learn', category: 'ML Libraries', proficiency: 70, icon: Brain },
+  { name: 'Pandas', category: 'ML Libraries', proficiency: 70, icon: Brain },
+  { name: 'NumPy', category: 'ML Libraries', proficiency: 70, icon: Brain },
   { name: 'TensorFlow', category: 'ML Libraries', proficiency: 70, icon: Brain },
   
   // Databases & Tools
-  { name: 'MySQL', category: 'Databases', proficiency: 85, icon: Database },
+  { name: 'MySQL', category: 'Databases', proficiency: 65, icon: Database },
   { name: 'Git & GitHub', category: 'Tools', proficiency: 85, icon: Github },
+  { name: 'VS Code', category: 'Tools', proficiency: 75, icon: Code2 },
 ];
 
 const categories = ['Languages', 'Web Frameworks', 'ML Libraries', 'Databases', 'Tools'];
