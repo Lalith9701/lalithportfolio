@@ -33,6 +33,10 @@ const skills: Skill[] = [
 const categories = ['Languages', 'Web Frameworks', 'ML Libraries', 'Databases', 'Tools'];
 
 const Skills = () => {
+  const avgProficiency = Math.round(
+    skills.reduce((sum, skill) => sum + skill.proficiency, 0) / skills.length
+  );
+
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -171,7 +175,7 @@ const Skills = () => {
             variants={itemVariants}
           >
             <div className="font-display text-3xl md:text-4xl font-bold gradient-text mb-2">
-              85%
+              {avgProficiency}%
             </div>
             <div className="text-sm text-muted-foreground">Avg Proficiency</div>
           </motion.div>
