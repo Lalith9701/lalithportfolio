@@ -77,7 +77,7 @@ const About = () => {
 
         {/* Stats Grid */}
         <motion.div
-          className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-20"
+          className="grid grid-cols-3 gap-6 mb-20 max-w-3xl mx-auto"
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
