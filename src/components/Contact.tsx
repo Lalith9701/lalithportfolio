@@ -1,8 +1,10 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Send, Mail, MapPin, Phone, Github, Linkedin } from 'lucide-react';
+import { useToast } from '@/hooks/use-toast';
 
 const Contact = () => {
+  const { toast } = useToast();
   const [formState, setFormState] = useState({
     name: '',
     email: '',
@@ -15,7 +17,12 @@ const Contact = () => {
     e.preventDefault();
     const subject = encodeURIComponent(`Portfolio Contact from ${formState.name}`);
     const body = encodeURIComponent(`Name: ${formState.name}\nEmail: ${formState.email}\n\n${formState.message}`);
-    window.open(`mailto:lalithcharan111@gmail.com?subject=${subject}&body=${body}`, '_blank');
+    window.location.href = `mailto:lalithcharan111@gmail.com?subject=${subject}&body=${body}`;
+    toast({
+      title: "Opening email client",
+      description: "Your default email app should open with the message pre-filled.",
+    });
+    setFormState({ name: '', email: '', message: '' });
   };
 
   const socialLinks = [
