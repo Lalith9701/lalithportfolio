@@ -13,8 +13,9 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission
-    console.log('Form submitted:', formState);
+    const subject = encodeURIComponent(`Portfolio Contact from ${formState.name}`);
+    const body = encodeURIComponent(`Name: ${formState.name}\nEmail: ${formState.email}\n\n${formState.message}`);
+    window.open(`mailto:lalithcharan111@gmail.com?subject=${subject}&body=${body}`, '_blank');
   };
 
   const socialLinks = [
