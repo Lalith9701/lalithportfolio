@@ -26,7 +26,7 @@ const skills: Skill[] = [
   { name: 'TensorFlow', category: 'ML Libraries', proficiency: 70, icon: Brain },
   
   // Databases & Tools
-  { name: 'MySQL', category: 'Databases', proficiency: 65, icon: Database },
+  { name: 'SQL', category: 'Databases', proficiency: 65, icon: Database },
   { name: 'Git & GitHub', category: 'Tools', proficiency: 85, icon: Github },
   { name: 'VS Code', category: 'Tools', proficiency: 75, icon: Code2 },
 ];
