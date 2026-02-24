@@ -13,7 +13,7 @@ const skills: Skill[] = [
   { name: 'Python', category: 'Languages', proficiency: 69, icon: Code2 },
   { name: 'HTML', category: 'Languages', proficiency: 75, icon: Code2 },
   { name: 'CSS', category: 'Languages', proficiency: 70, icon: Code2 },
-  { name: 'SQL', category: 'Languages', proficiency: 60, icon: Database },
+  
   
   // Frameworks & Libraries
   { name: 'Django', category: 'Web Frameworks', proficiency: 85, icon: Zap },
