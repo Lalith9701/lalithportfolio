@@ -15,16 +15,16 @@
     --popover: 230 25% 6%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 0 0% 100%;
+    --primary: 200 100% 70%;
     --primary-foreground: 230 30% 3%;
 
-    --secondary: 0 0% 80%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 210 20% 95%;
+    --secondary-foreground: 230 30% 3%;
 
     --muted: 230 20% 12%;
     --muted-foreground: 215 20% 55%;
 
-    --accent: 0 0% 100%;
+    --accent: 195 100% 80%;
     --accent-foreground: 230 30% 3%;
 
     --destructive: 0 84.2% 60.2%;
@@ -32,29 +32,29 @@
 
     --border: 230 20% 15%;
     --input: 230 20% 15%;
-    --ring: 0 0% 100%;
+    --ring: 200 100% 70%;
 
     --radius: 0.75rem;
 
     /* Custom Portfolio Tokens */
-    --glow-primary: 0 0% 100%;
-    --glow-secondary: 0 0% 60%;
-    --glow-accent: 0 0% 80%;
+    --glow-primary: 200 100% 70%;
+    --glow-secondary: 210 20% 95%;
+    --glow-accent: 195 100% 80%;
     
-    --glass-bg: 230 25% 10%;
-    --glass-border: 230 20% 20%;
+    --glass-bg: 230 25% 8%;
+    --glass-border: 230 20% 18%;
     
-    --gradient-start: 0 0% 100%;
-    --gradient-end: 0 0% 40%;
+    --gradient-start: 200 100% 70%;
+    --gradient-end: 210 20% 95%;
 
     --sidebar-background: 230 25% 6%;
     --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 0 0% 100%;
+    --sidebar-primary: 200 100% 70%;
     --sidebar-primary-foreground: 0 0% 100%;
     --sidebar-accent: 230 20% 12%;
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 230 20% 15%;
-    --sidebar-ring: 0 0% 100%;
+    --sidebar-ring: 200 100% 70%;
   }
 }
 
