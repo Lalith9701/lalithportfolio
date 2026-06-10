@@ -6,13 +6,13 @@
 
 @layer base {
   :root {
-    --background: 210 17% 98%;
+    --background: 210 40% 96%;
     --foreground: 230 30% 15%;
 
-    --card: 210 17% 98%;
+    --card: 210 40% 96%;
     --card-foreground: 230 30% 15%;
 
-    --popover: 210 17% 98%;
+    --popover: 210 40% 96%;
     --popover-foreground: 230 30% 15%;
 
     --primary: 200 100% 50%;
@@ -41,13 +41,13 @@
     --glow-secondary: 195 100% 70%;
     --glow-accent: 210 100% 60%;
     
-    --glass-bg: 210 17% 98%;
+    --glass-bg: 210 40% 96%;
     --glass-border: 210 20% 80%;
     
     --gradient-start: 200 100% 50%;
     --gradient-end: 195 100% 70%;
 
-    --sidebar-background: 210 17% 98%;
+    --sidebar-background: 210 40% 96%;
     --sidebar-foreground: 230 30% 15%;
     --sidebar-primary: 200 100% 50%;
     --sidebar-primary-foreground: 0 0% 100%;
