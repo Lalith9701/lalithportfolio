@@ -58,7 +58,7 @@ const projects = [
     description: 'Django-based restaurant web app with Veg & Non-Veg menus, image-based items, interactive cart, and modern responsive UI.',
     tags: ['Django', 'HTML/CSS', 'JavaScript'],
     image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=600&fit=crop',
-    size: 'large',
+    size: 'wide',
     color: 'from-orange-500/20 to-red-500/20',
     github: 'https://github.com/Lalith9701/THE-ANGELS-RESTAURANT',
   },
@@ -125,6 +125,8 @@ const BentoProjects = () => {
               key={project.id}
               className={`group relative overflow-hidden rounded-3xl glass-card cursor-pointer ${
                 project.size === 'large' ? 'md:col-span-2 md:row-span-2' : ''
+              } ${
+                project.size === 'wide' ? 'md:col-span-2 lg:col-span-4 md:row-span-1' : ''
               }`}
               variants={itemVariants}
               whileHover={{ scale: 1.02 }}

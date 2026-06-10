@@ -67,7 +67,7 @@ const Hero = () => {
             <Float speed={2} rotationIntensity={1} floatIntensity={1}>
               <Sphere args={[1, 64, 64]} scale={1.2} position={[2.5, 0.5, -2]}>
                 <MeshDistortMaterial
-                  color="#ff1493"
+                  color="#ffffff"
                   distort={0.4}
                   speed={2}
                   roughness={0.2}
@@ -76,7 +76,7 @@ const Hero = () => {
               </Sphere>
               <Sphere args={[1, 64, 64]} scale={0.8} position={[-2.5, 1.5, -3]}>
                 <MeshDistortMaterial
-                  color="#ff5e00"
+                  color="#aaaaaa"
                   distort={0.5}
                   speed={1.5}
                   roughness={0.2}
