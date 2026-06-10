@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion';
 import { ArrowDown, Sparkles } from 'lucide-react';
 import MagneticButton from './MagneticButton';
+import { Canvas } from '@react-three/fiber';
+import { Float, MeshDistortMaterial, Sphere } from '@react-three/drei';
 
 const Hero = () => {
   const containerVariants = {
@@ -57,8 +59,36 @@ const Hero = () => {
           }}
         />
         
+        {/* 3D Elements */}
+        <div className="absolute inset-0 z-0 opacity-60">
+          <Canvas camera={{ position: [0, 0, 5], fov: 45 }}>
+            <ambientLight intensity={0.5} />
+            <directionalLight position={[10, 10, 5]} intensity={1.5} />
+            <Float speed={2} rotationIntensity={1} floatIntensity={1}>
+              <Sphere args={[1, 64, 64]} scale={1.2} position={[2.5, 0.5, -2]}>
+                <MeshDistortMaterial
+                  color="#ff1493"
+                  distort={0.4}
+                  speed={2}
+                  roughness={0.2}
+                  metalness={0.8}
+                />
+              </Sphere>
+              <Sphere args={[1, 64, 64]} scale={0.8} position={[-2.5, 1.5, -3]}>
+                <MeshDistortMaterial
+                  color="#ff5e00"
+                  distort={0.5}
+                  speed={1.5}
+                  roughness={0.2}
+                  metalness={0.8}
+                />
+              </Sphere>
+            </Float>
+          </Canvas>
+        </div>
+
         {/* Grid pattern */}
-        <div className="absolute inset-0 bg-[linear-gradient(hsl(var(--border)/0.3)_1px,transparent_1px),linear-gradient(90deg,hsl(var(--border)/0.3)_1px,transparent_1px)] bg-[size:60px_60px] [mask-image:radial-gradient(ellipse_at_center,black_20%,transparent_70%)]" />
+        <div className="absolute inset-0 z-0 bg-[linear-gradient(hsl(var(--border)/0.3)_1px,transparent_1px),linear-gradient(90deg,hsl(var(--border)/0.3)_1px,transparent_1px)] bg-[size:60px_60px] [mask-image:radial-gradient(ellipse_at_center,black_20%,transparent_70%)] pointer-events-none" />
       </div>
 
       {/* Content */}

@@ -137,13 +137,14 @@ const BentoProjects = () => {
                   alt={project.title}
                   className="w-full h-full object-cover opacity-60 group-hover:opacity-80 group-hover:scale-110 transition-all duration-700"
                 />
-                <div className={`absolute inset-0 bg-gradient-to-t ${project.color} via-background/80 to-background/95`} />
+                <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent" />
+                <div className={`absolute inset-0 opacity-40 bg-gradient-to-br ${project.color}`} />
               </div>
 
               {/* Content */}
-              <div className="relative z-10 h-full p-6 flex flex-col justify-end">
+              <div className="relative z-10 h-full p-4 md:p-6 flex flex-col justify-end">
                 {/* Tags */}
-                <div className="flex flex-wrap gap-2 mb-3">
+                <div className="flex flex-wrap gap-1.5 md:gap-2 mb-2 md:mb-3">
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
@@ -155,10 +156,10 @@ const BentoProjects = () => {
                 </div>
 
                 {/* Title & Description */}
-                <h3 className="font-display text-xl md:text-2xl font-bold text-foreground mb-2">
+                <h3 className="font-display text-lg md:text-xl font-bold text-foreground mb-1 md:mb-2 line-clamp-2">
                   {project.title}
                 </h3>
-                <p className="text-muted-foreground text-sm mb-4 line-clamp-2">
+                <p className="text-muted-foreground text-xs md:text-sm mb-3 md:mb-4 line-clamp-2">
                   {project.description}
                 </p>
 
