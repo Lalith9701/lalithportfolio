@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Code2, Brain, Database, Zap, Github, BookOpen } from 'lucide-react';
+import { Code2, Brain, Database, Zap, Github, Wrench, Globe, Users, FileJson } from 'lucide-react';
 
 interface Skill {
   name: string;
@@ -9,29 +9,41 @@ interface Skill {
 }
 
 const skills: Skill[] = [
-  // Backend & Languages
-  { name: 'Python', category: 'Languages', proficiency: 69, icon: Code2 },
-  { name: 'HTML', category: 'Languages', proficiency: 75, icon: Code2 },
-  { name: 'CSS', category: 'Languages', proficiency: 70, icon: Code2 },
+  // Programming Languages
+  { name: 'Python', category: 'Programming Languages', proficiency: 85, icon: Code2 },
+  { name: 'JavaScript', category: 'Programming Languages', proficiency: 82, icon: Code2 },
+  { name: 'TypeScript', category: 'Programming Languages', proficiency: 78, icon: Code2 },
+  { name: 'SQL', category: 'Programming Languages', proficiency: 80, icon: Database },
   
+  // Frameworks / Libraries
+  { name: 'Django', category: 'Frameworks / Libraries', proficiency: 84, icon: Zap },
+  { name: 'Flask', category: 'Frameworks / Libraries', proficiency: 80, icon: Zap },
+  { name: 'Scikit-learn', category: 'Frameworks / Libraries', proficiency: 78, icon: Brain },
+  { name: 'Pandas', category: 'Frameworks / Libraries', proficiency: 82, icon: Brain },
+  { name: 'NumPy', category: 'Frameworks / Libraries', proficiency: 80, icon: Brain },
   
-  // Frameworks & Libraries
-  { name: 'Django', category: 'Web Frameworks', proficiency: 85, icon: Zap },
-  { name: 'Flask', category: 'Web Frameworks', proficiency: 80, icon: Zap },
+  // Databases
+  { name: 'MySQL', category: 'Databases', proficiency: 82, icon: Database },
+  { name: 'SQLite', category: 'Databases', proficiency: 78, icon: Database },
   
-  // ML & Data Science
-  { name: 'Scikit-learn', category: 'ML Libraries', proficiency: 70, icon: Brain },
-  { name: 'Pandas', category: 'ML Libraries', proficiency: 70, icon: Brain },
-  { name: 'NumPy', category: 'ML Libraries', proficiency: 70, icon: Brain },
-  { name: 'TensorFlow', category: 'ML Libraries', proficiency: 70, icon: Brain },
+  // Development Tools
+  { name: 'Git & GitHub', category: 'Development Tools', proficiency: 85, icon: Github },
+  { name: 'Visual Studio Code', category: 'Development Tools', proficiency: 85, icon: Wrench },
   
-  // Databases & Tools
-  { name: 'SQL', category: 'Databases', proficiency: 65, icon: Database },
-  { name: 'Git & GitHub', category: 'Tools', proficiency: 85, icon: Github },
-  { name: 'VS Code', category: 'Tools', proficiency: 75, icon: Code2 },
+  // Web Technologies
+  { name: 'HTML', category: 'Web Technologies', proficiency: 85, icon: Globe },
+  { name: 'CSS', category: 'Web Technologies', proficiency: 82, icon: Globe },
+  { name: 'JavaScript', category: 'Web Technologies', proficiency: 82, icon: Globe },
+  { name: 'RESTful APIs', category: 'Web Technologies', proficiency: 80, icon: FileJson },
+  
+  // Soft Skills
+  { name: 'Leadership', category: 'Soft Skills', proficiency: 85, icon: Users },
+  { name: 'Problem-Solving', category: 'Soft Skills', proficiency: 85, icon: Users },
+  { name: 'Collaboration', category: 'Soft Skills', proficiency: 85, icon: Users },
+  { name: 'Continuous Learning', category: 'Soft Skills', proficiency: 85, icon: Users },
 ];
 
-const categories = ['Languages', 'Web Frameworks', 'ML Libraries', 'Databases', 'Tools'];
+const categories = ['Programming Languages', 'Frameworks / Libraries', 'Databases', 'Development Tools', 'Web Technologies', 'Soft Skills'];
 
 const Skills = () => {
   const avgProficiency = Math.round(
