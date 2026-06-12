@@ -6,55 +6,55 @@
 
 @layer base {
   :root {
-    --background: 60 20% 98%;
-    --foreground: 60 10% 15%;
+    --background: 220 8% 7%;
+    --foreground: 210 40% 98%;
 
-    --card: 60 20% 98%;
-    --card-foreground: 60 10% 15%;
+    --card: 220 8% 10%;
+    --card-foreground: 210 40% 98%;
 
-    --popover: 60 20% 98%;
-    --popover-foreground: 60 10% 15%;
+    --popover: 220 8% 10%;
+    --popover-foreground: 210 40% 98%;
 
-    --primary: 60 10% 15%;
-    --primary-foreground: 60 20% 98%;
+    --primary: 213 94% 68%;
+    --primary-foreground: 220 8% 7%;
 
-    --secondary: 60 20% 92%;
-    --secondary-foreground: 60 10% 15%;
+    --secondary: 220 8% 15%;
+    --secondary-foreground: 210 40% 98%;
 
-    --muted: 60 20% 92%;
-    --muted-foreground: 60 10% 45%;
+    --muted: 220 8% 15%;
+    --muted-foreground: 215 20% 65%;
 
-    --accent: 60 20% 90%;
-    --accent-foreground: 60 10% 15%;
+    --accent: 213 94% 68%;
+    --accent-foreground: 220 8% 7%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 60 10% 85%;
-    --input: 60 10% 85%;
-    --ring: 60 10% 15%;
+    --border: 220 8% 18%;
+    --input: 220 8% 18%;
+    --ring: 213 94% 68%;
 
     --radius: 0.75rem;
 
     /* Custom Portfolio Tokens */
-    --glow-primary: 60 10% 70%;
-    --glow-secondary: 60 10% 80%;
-    --glow-accent: 60 10% 60%;
+    --glow-primary: 213 94% 68%;
+    --glow-secondary: 210 100% 75%;
+    --glow-accent: 220 90% 70%;
     
-    --glass-bg: 60 20% 98%;
-    --glass-border: 60 10% 85%;
+    --glass-bg: 220 8% 9%;
+    --glass-border: 220 8% 20%;
     
-    --gradient-start: 60 10% 15%;
-    --gradient-end: 60 10% 40%;
+    --gradient-start: 213 94% 68%;
+    --gradient-end: 210 100% 75%;
 
-    --sidebar-background: 60 20% 98%;
-    --sidebar-foreground: 60 10% 15%;
-    --sidebar-primary: 60 10% 15%;
-    --sidebar-primary-foreground: 60 20% 98%;
-    --sidebar-accent: 60 20% 92%;
-    --sidebar-accent-foreground: 60 10% 15%;
-    --sidebar-border: 60 10% 85%;
-    --sidebar-ring: 60 10% 15%;
+    --sidebar-background: 220 8% 7%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 213 94% 68%;
+    --sidebar-primary-foreground: 220 8% 7%;
+    --sidebar-accent: 220 8% 15%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 220 8% 18%;
+    --sidebar-ring: 213 94% 68%;
   }
 }
 
