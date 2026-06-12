@@ -6,55 +6,55 @@
 
 @layer base {
   :root {
-    --background: 220 8% 7%;
+    --background: 225 44% 7%;
     --foreground: 210 40% 98%;
 
-    --card: 220 8% 10%;
+    --card: 225 44% 10%;
     --card-foreground: 210 40% 98%;
 
-    --popover: 220 8% 10%;
+    --popover: 225 44% 10%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 213 94% 68%;
-    --primary-foreground: 220 8% 7%;
+    --primary: 198 93% 60%;
+    --primary-foreground: 225 44% 7%;
 
-    --secondary: 220 8% 15%;
+    --secondary: 225 44% 15%;
     --secondary-foreground: 210 40% 98%;
 
-    --muted: 220 8% 15%;
+    --muted: 225 44% 15%;
     --muted-foreground: 215 20% 65%;
 
-    --accent: 213 94% 68%;
-    --accent-foreground: 220 8% 7%;
+    --accent: 198 93% 60%;
+    --accent-foreground: 225 44% 7%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 220 8% 18%;
-    --input: 220 8% 18%;
-    --ring: 213 94% 68%;
+    --border: 225 44% 18%;
+    --input: 225 44% 18%;
+    --ring: 198 93% 60%;
 
     --radius: 0.75rem;
 
     /* Custom Portfolio Tokens */
-    --glow-primary: 213 94% 68%;
-    --glow-secondary: 210 100% 75%;
-    --glow-accent: 220 90% 70%;
+    --glow-primary: 198 93% 60%;
+    --glow-secondary: 200 100% 70%;
+    --glow-accent: 210 90% 70%;
     
-    --glass-bg: 220 8% 9%;
-    --glass-border: 220 8% 20%;
+    --glass-bg: 225 44% 9%;
+    --glass-border: 225 44% 20%;
     
-    --gradient-start: 213 94% 68%;
-    --gradient-end: 210 100% 75%;
+    --gradient-start: 198 93% 60%;
+    --gradient-end: 200 100% 70%;
 
-    --sidebar-background: 220 8% 7%;
+    --sidebar-background: 225 44% 7%;
     --sidebar-foreground: 210 40% 98%;
-    --sidebar-primary: 213 94% 68%;
-    --sidebar-primary-foreground: 220 8% 7%;
-    --sidebar-accent: 220 8% 15%;
+    --sidebar-primary: 198 93% 60%;
+    --sidebar-primary-foreground: 225 44% 7%;
+    --sidebar-accent: 225 44% 15%;
     --sidebar-accent-foreground: 210 40% 98%;
-    --sidebar-border: 220 8% 18%;
-    --sidebar-ring: 213 94% 68%;
+    --sidebar-border: 225 44% 18%;
+    --sidebar-ring: 198 93% 60%;
   }
 }
 
